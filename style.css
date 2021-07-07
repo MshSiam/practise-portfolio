@@ -85,3 +85,56 @@ span{
 .hero h5{
     color: var(--primary);
 }
+
+
+
+/*  About me Section */
+.about{
+    margin-top:3%;
+    padding: 10%;
+    background-color: rgb(235, 235, 235);
+}
+
+.about .left img{
+    width: 50%;
+    margin-left: 35%;
+}
+
+.about .right{
+    margin-top: 3%;
+}
+
+.about h1, h3, .ap{
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.ap{
+    color: rgb(68, 68, 68);
+}
+
+.about .social{
+    display: flex;
+    
+}
+
+.about .social a{
+    background-color: black;
+    color: whitesmoke;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .4s;
+}
+
+
+.about .social a:hover{
+    background-color: var(--primary);
+    color: black;
+}
