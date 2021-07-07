@@ -29,3 +29,21 @@
     border-color: var(--primary);
     color: var(--primary);
 }
+
+.flex-1{
+    flex: 1;
+}
+
+.btn-second{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+    transition: .4s;
+}
+
+.btn-second:hover{
+    background: var(--primary);
+    border-color: var(--primary);
+    color: rgb(0, 0, 0);
+    
+}

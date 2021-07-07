@@ -22,6 +22,7 @@
 header{
     background-color: var(--dark);
     height: 800px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 85%, 0 100% );
 }
 
 .container{
@@ -41,6 +42,7 @@ header nav .left a{
 
 header nav .left a:hover{
     color: var(--primary);
+    cursor: pointer;
 }
 
 header nav{
@@ -51,3 +53,35 @@ header nav .branding{
     margin-right: 3rem;
 }
 
+.hero .right{
+    width: 50%;
+    margin-top: 15%;
+    text-align-last: left;
+
+}
+
+.hero .left{
+    width: 50%;
+}
+
+.hero img{
+    margin-top: -80px;
+    height: 500px;
+    width: auto;
+    margin-right: -20px;
+
+}
+
+span{
+    color: rgb(0, 247, 255);
+}
+
+.hero h1, h2, h5, p{
+    color: white;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.hero h5{
+    color: var(--primary);
+}
